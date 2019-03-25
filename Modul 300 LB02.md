@@ -60,6 +60,18 @@ Für die Arbeitsmittel benutze ich folgende Tools:
 4. VirtualBox
 5. Typora - Markdown Editor
 
+#### Virtuelle Umgebung
+
+Ich habe einen Apache Server erstellt welcher auf Ubuntu/Xenial64 basiert. Dies läuft in einer Virtualbox Umgebung.
+
+#### Test
+
+Der Apacheserver ist ereichbar, wenn man auf dem Host dies im Browser eingibt:
+
+[http://localhost:8080/index.html]()
+
+Die VM kann mit `vagrant ssh`  erreicht werden.
+
 #### Reflexion
 
 Ich konnte in dieser LB sehr viel lernen, da ich zuvor noch nie mit Vagrant gearbeitet habe und besonders darüber viel lernen konnte. Ich finde Vagrant ein sehr nützliches Tool, welches ich sicherlich wieder brauchen werde. Über GitHub und Editors wusste ich schon ziemlich gut bescheid, aber es war sehr gut wieder ein Update zu erhalten. Der Einstieg in Markdown war für mich sehr hilfreich, da ich es immer zu mühsam fand aber ich nun mit Typora einen sehr guten Editor fand welcher das erstellen von Markdown Dokumentation massiv erleichtert.
